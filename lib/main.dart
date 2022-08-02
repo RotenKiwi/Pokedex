@@ -1,3 +1,4 @@
+import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:pokedex/splash.dart';
 
@@ -25,7 +26,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: splash(),
+      home: AnimatedSplashScreen(splash: AssetImage('assets/img.png'), nextScreen: MyHomePage(title: 'roten'),),
     );
   }
 }

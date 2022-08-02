@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'main.dart';
 
 class splash extends StatefulWidget {
@@ -13,7 +13,7 @@ class _splashState extends State<splash> {
   @override
   void initState() {
     super.initState();
-    navigateHome();
+    //navigateHome();
   }
 
   navigateHome() async {
