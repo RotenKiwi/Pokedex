@@ -28,7 +28,7 @@ class _splashState extends State<splash> {
       body: Container(
         child: Center(
         child:  Image(
-          image: AssetImage('assets/img.png'),
+          image: AssetImage('assets/pokeball.gif'),
         ),
         ),
       ),
