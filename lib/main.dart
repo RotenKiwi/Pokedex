@@ -26,7 +26,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: AnimatedSplashScreen(splash: Image(image: AssetImage('assets/img.png'), nextScreen: MyHomePage(title: 'roten'),),
+      home: AnimatedSplashScreen(splash: Image(image: AssetImage('assets/img.png')), nextScreen: MyHomePage(title: 'roten'),),
     );
   }
 }
